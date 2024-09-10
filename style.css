@@ -1,109 +1,109 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
 body {
-    background-color: #f4f4f9;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
 
 .container {
-    display: flex;
-    max-width: 1000px;
-    width: 100%;
-    background-color: #ffffff;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    overflow: hidden;
+  display: flex;
+  max-width: 1000px;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .sidebar {
-    width: 300px;
-    background-color: #2b2e4a;
-    padding: 20px;
-    color: #ffffff;
-    text-align: center;
+  width: 300px;
+  background-color: #2b2e4a;
+  padding: 20px;
+  color: #ffffff;
+  text-align: center;
 }
 
 .sidebar img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
 }
 
 .sidebar h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
 .sidebar p {
-    font-size: 14px;
-    line-height: 1.6;
+  font-size: 14px;
+  line-height: 1.6;
 }
 
 .about-me {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .about-me h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
-    text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
 .about-me p {
-    font-size: 14px;
-    line-height: 1.5;
+  font-size: 14px;
+  line-height: 1.5;
 }
 
 .resume-main {
-    flex-grow: 1;
-    padding: 30px;
+  flex-grow: 1;
+  padding: 30px;
 }
 
 .resume-main h2 {
-    font-size: 22px;
-    color: #2b2e4a;
-    margin-bottom: 10px;
-    border-bottom: 2px solid #2b2e4a;
-    padding-bottom: 5px;
+  font-size: 22px;
+  color: #2b2e4a;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #2b2e4a;
+  padding-bottom: 5px;
 }
 
 .resume-main p {
-    font-size: 16px;
-    margin-bottom: 20px;
+  font-size: 16px;
+  margin-bottom: 20px;
 }
 
 .skills-section ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 .skills-section li {
-    font-size: 16px;
-    background-color: #e5e5e5;
-    padding: 10px;
-    margin: 5px 0;
-    border-radius: 5px;
+  font-size: 16px;
+  background-color: #e5e5e5;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
 }
 
 button {
-    margin-top: 10px;
-    padding: 10px 20px;
-    background-color: #2b2e4a;
-    color: #ffffff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #2b2e4a;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 button:hover {
-    background-color: #4a4e69;
+  background-color: #4a4e69;
 }
